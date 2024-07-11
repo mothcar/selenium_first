@@ -13,7 +13,7 @@ for number in range(150):
   url = "https://coupon-egg.netlify.app"
 
   driver.get(url)
-  time.sleep(6)
+  time.sleep(10)
   driver.find_element(By.ID, "login").click()
   time.sleep(800)
   driver.quit()
